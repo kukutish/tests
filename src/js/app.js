@@ -1,6 +1,6 @@
-// TODO: write your code here
-import sum from './basic';
+function GetColor (obj) {
+  return obj.health > 50 ? 'green' : (obj.health > 15) ? 'yellow' : 'red'
+}
 
-console.log('worked');
+export default GetColor
 
-console.log(sum([1, 2]));
